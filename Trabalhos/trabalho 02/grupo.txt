@@ -1,0 +1,3 @@
+Grupo: Alexandre, Luis, Mateus, Vitória.
+GitHub: https://github.com/LuuLuLuu/Segmentecao-de-clientes
+        SSH: git@github.com:LuuLuLuu/Segmentecao-de-clientes.git

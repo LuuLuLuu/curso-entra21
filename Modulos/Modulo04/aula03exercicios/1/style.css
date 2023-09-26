@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(gray, black);
+}
+
+/* 
+----------------------------------------------------------------
+____________________________POSTS_______________________________
+----------------------------------------------------------------
+*/
+/* O POST */
+#divPost {
+    border: 3px solid;
+    margin: 20px;
+    background-image: linear-gradient(blue, yellow);
+}
+
+/* RESPOSTAS DO POST */
+#answPost {
+    
+} 
+
+/* 
+OS USUÁRIOS
+*/
+#user {
+    color: white;
+    text-decoration: underline
+} 
+
+/* 
+USER OP
+*/
+.op{
+    color: white;
+    display: inline;
+}
+
+#OP {
+    margin: 0 0 0 10px;
+    border: 2px solid black;
+}
+
+/* 
+USER ANSWER
+*/
+.userName {
+    margin: ;
+}

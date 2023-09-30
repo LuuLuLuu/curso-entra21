@@ -1,0 +1,11 @@
+body {
+    display: flex;
+}
+
+@supports (display: -webkit-flex) {
+    @media screen and (min-width: 200px) {
+        header:hover {
+            background: red !important;
+        }
+    }
+}

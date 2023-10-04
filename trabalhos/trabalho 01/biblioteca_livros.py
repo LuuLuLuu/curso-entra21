@@ -199,7 +199,7 @@ while True:
 
             emprestar_livro(id)
 
-        case "4":  # Gabriel
+        case "4":  # Gabriel 
 
             id = int(input("Digite a ID do livro a ser devolvido:"))
             if id not in biblioteca.keys():  # Verificar se a ID do livro existe

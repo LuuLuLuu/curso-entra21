@@ -1,0 +1,10 @@
+header {
+    display: flex;
+}
+.logo {
+    align-items: center;
+}
+header nav::before {
+    content: "";
+    display: block;
+}

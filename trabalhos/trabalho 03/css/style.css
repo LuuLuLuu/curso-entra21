@@ -1,10 +1,152 @@
-header {
+/* 
+for mobile, starting with 320px width.
+*/
+.page {
+    background-color: beige;
+}
+
+
+
+
+.header {
+    position: sticky;
+    display: flexbox;
+    border-bottom: 0.5px black solid;
+    flex-direction: column;
+    justify-content: center;
+
+
+    background-color: rgb(161, 175, 218);
+}
+
+.logo-div {
+    padding-top: 5%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.logo {
-    align-items: center;
+
+.logo-div__logo {
+    font-size: 400%;
 }
-header nav::before {
+
+.logo-div__logo:any-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.menu {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu nav {
+    display: inline-flexbox;
+    text-align: center;
+    padding: .625rem 0;
+    margin-bottom: 4px;
+}
+
+.menu-button {
+    display: flexbox;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-button svg {
+    height: 1rem;
+}
+
+.menu::before {
     content: "";
-    display: block;
+    display: inline-block;
+}
+
+.menu-list {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: none;
+}
+
+.menu-list ul li:not(.menu-list ul li:first-child, .menu-list ul li:last-child) {
+    border-left: .0938rem solid black;
+    border-right: .0938rem solid black;
+}
+
+.menu__list-item {
+    display: inline-block;
+    padding-inline: 5%;
+}
+
+.menu__list-item-link:any-link {
+    font-size: 130%;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+.introduction {
+    display: flex;
+    margin: 20% 0;
+    height: 12.5rem;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 1.575rem;
+    text-shadow: 20% white;
+    padding: 0 10px;
+}
+
+
+
+
+.container {
+    display: flexbox;
+    margin: 3% 3%;
+    padding: 10% 6%;
+    background-color: rgb(161, 175, 218);
+    border-radius: 3%;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    padding: 1.25rem 0 1.25rem;
+}
+
+.content:not(.space) {
+    border-top: .0313rem black solid;
+    border-bottom: .0313rem black solid;
+}
+
+
+
+.container p:first-child {
+    padding-top: 20px;
+}
+
+
+
+.slideshow__list-title {
+    position: relative;
+}
+
+
+
+.footer {
+    border-top: 0.5px black solid;
+    margin-top: 20%;
+    background-color: black;
+    color: white;
 }

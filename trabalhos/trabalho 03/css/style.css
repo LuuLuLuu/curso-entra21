@@ -1,6 +1,11 @@
 /* 
 for mobile, starting with 320px width.
 */
+
+:root {
+    --border-width__slideshow-imagens: 18%;
+}
+
 .page {
     background-color: beige;
 }
@@ -114,7 +119,8 @@ for mobile, starting with 320px width.
     margin: 3% 3%;
     padding: 10% 6%;
     background-color: rgb(161, 175, 218);
-    border-radius: 3%;
+    border-radius: 2%;
+    
 
     flex-direction: column;
     justify-content: center;
@@ -136,6 +142,21 @@ for mobile, starting with 320px width.
     padding-top: 20px;
 }
 
+.london-article img,
+.paris-article img {
+    width: 100%;
+    border-radius: 7%;
+    border: black solid 0.5px;
+    border-top-right-radius: var(--border-width__slideshow-imagens);
+    border-bottom-left-radius: var(--border-width__slideshow-imagens);
+}
+
+.paris-article img {
+    border-top-left-radius: var(--border-width__slideshow-imagens) !important;
+    border-bottom-right-radius: var(--border-width__slideshow-imagens) !important;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
 
 
 .slideshow__list-title {

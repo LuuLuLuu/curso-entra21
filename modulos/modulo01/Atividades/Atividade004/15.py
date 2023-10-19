@@ -20,10 +20,16 @@ if salario_bruto <= 600:
     print("Tu esta isento de qualquer desconto de seu salário liquído.")
 elif salario_bruto <= 1200:
     salario_liquido_20 = salario_bruto - salario_bruto * 0.20
-    print(f"Tu esta sujeito a um desconto de 20% de seu salário liquído, passando a receber {salario_liquido_20}")
+    print(
+        f"Tu esta sujeito a um desconto de 20% de seu salário liquído, passando a receber {salario_liquido_20}"
+    )
 elif salario_bruto <= 2000:
     salario_liquido_25 = salario_bruto - salario_bruto * 0.25
-    print(f"Tu esta sujeito a um desconto de 25% de seu salário liquído, passando a receber {salario_liquido_25}")
+    print(
+        f"Tu esta sujeito a um desconto de 25% de seu salário liquído, passando a receber {salario_liquido_25}"
+    )
 else:
     salario_liquido_30 = salario_bruto - salario_bruto * 0.30
-    print(f"Tu esta sujeito a um desconto de 30% de seu salário liquído, passando a receber {salario_liquido_30}")
+    print(
+        f"Tu esta sujeito a um desconto de 30% de seu salário liquído, passando a receber {salario_liquido_30}"
+    )

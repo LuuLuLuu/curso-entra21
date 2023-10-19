@@ -16,3 +16,6 @@ let userName = prompt("Type your name: ")
 
 
 // 3) Uppercase const? 
+const BIRTHDAY = '18.04.1982';
+
+const age = someCode(birthday);

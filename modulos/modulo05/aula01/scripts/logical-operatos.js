@@ -62,21 +62,20 @@
 
 
 // 9) Check the login
+    // let login = prompt("Type your login ");
+    // let password;
 
-let login = prompt("Type your login ");
-let password;
-
-if (login === 'Admin') {
-    password = prompt("Type the password ");
-    if (password === "TheMaster") {
-        alert("Welcome!");
-    } else if (password === '' || password === null){
-        alert("Canceled");
-    } else if (password !== "TheMaster") {
-        alert("Wrong password");        
-    } 
-} else if (login === '' || login === null){
-    alert("Canceled");    
-} else if (login !== 'Admin') {
-    alert("I don't know you");
-}
+    // if (login === 'Admin') {
+    //     password = prompt("Type the password ");
+    //     if (password === "TheMaster") {
+    //         alert("Welcome!");
+    //     } else if (password === '' || password === null){
+    //         alert("Canceled");
+    //     } else if (password !== "TheMaster") {
+    //         alert("Wrong password");        
+    //     } 
+    // } else if (login === '' || login === null){
+    //     alert("Canceled");    
+    // } else if (login !== 'Admin') {
+    //     alert("I don't know you");
+    // }

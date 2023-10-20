@@ -49,3 +49,34 @@
     // correct answer:
     // if (!(age >= 14 && age <= 90))
     // if (age < 14 || age > 90)
+
+
+
+
+
+// 8) A question about "if"
+    // 1. true cause (-1) is true
+    // 2. false cause the comparison is false
+    // 3. true cause (1) is true
+
+
+
+// 9) Check the login
+
+let login = prompt("Type your login ");
+let password;
+
+if (login === 'Admin') {
+    password = prompt("Type the password ");
+    if (password === "TheMaster") {
+        alert("Welcome!");
+    } else if (password === '' || password === null){
+        alert("Canceled");
+    } else if (password !== "TheMaster") {
+        alert("Wrong password");        
+    } 
+} else if (login === '' || login === null){
+    alert("Canceled");    
+} else if (login !== 'Admin') {
+    alert("I don't know you");
+}

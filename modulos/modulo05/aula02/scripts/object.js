@@ -31,9 +31,22 @@
 
 
 // 3) Sum object properties
-let salaries = {
-    John: 100,
-    Ann: 160,
-    Pete: 130
-  }
-salaries.reduce((acumulador, elemento) => , 0)
+// let salaries = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130
+// };
+// sum = 0;
+// for (let num in salaries) {
+//   sum += salaries[num];
+// }
+// console.log(sum);
+
+
+
+// 4) Multiply numeric property values by 2
+// function multiplyNumeric(obj) {
+//   for (let keyValue in obj) {
+//     (typeof obj[keyValue] === 'number') ? obj[keyValue] *= 2 : null;
+//   }
+// }

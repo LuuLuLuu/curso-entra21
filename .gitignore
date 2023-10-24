@@ -3,3 +3,5 @@ scratch.*
 normalize.css
 trabalho 03 ignore
 .vscode
+
+.env

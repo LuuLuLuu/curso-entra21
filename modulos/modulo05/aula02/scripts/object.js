@@ -17,7 +17,7 @@
 // (function(x){
 //     return isEmpty(x) ? alert(true) : alert(false);
 // })(schedule);
-
+// 
 // The answer:
 // function isEmpty(obj) {
 //     for (let key in obj) {
@@ -41,6 +41,7 @@
 //   sum += salaries[num];
 // }
 // console.log(sum);
+
 
 
 

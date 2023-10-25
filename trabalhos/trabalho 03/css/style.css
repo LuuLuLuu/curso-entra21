@@ -1,7 +1,8 @@
 /* Mobile com layout inicial de no mínimo de 390px de largura */
 
+
 .page {
-    background: linear-gradient(bisque, rgb(219, 187, 148));
+    background: linear-gradient(bisque, rgb(145, 127, 106));
     display: flex;
     flex-direction: column;
 }
@@ -12,6 +13,11 @@
     padding: 10% 0;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
 .header ol {
     padding: 10% 0 5%;
 }
@@ -172,8 +178,13 @@
 }
 
 .footer div a {
-    padding-inline: 9px;
+    
+    padding-inline: 20px;
+    color: black;
+    text-decoration: none;
 }
+
+
 
 @media all and (min-width: 1024px) {
     .answer {
@@ -196,5 +207,14 @@
 
     .footer {
         margin: -70px 0 0 0;
+    }
+    .description-paris img {
+        object-position: 0 70%;
+    }
+    .description-rio img {
+        object-position: 0 30%;
+    }
+    .content-trips__item img {
+        height: 200px;
     }
 }

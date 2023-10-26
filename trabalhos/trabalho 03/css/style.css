@@ -27,10 +27,9 @@ a {
     padding-inline: 17px;
 }
 
-.header div ol li:nth-last-child(2) {
-    border-left: 2px solid white;
+/* .header div ol li:last-child {
     border-right: 2px solid white;
-}
+} */
 
 .header h1 {
     font-size: 80px;

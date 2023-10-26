@@ -24,9 +24,8 @@ a {
     padding-inline: 17px;
 }
 
-.header div ol li:nth-last-child(2) {
+.header div ol li:last-child {
     border-left: 2px solid white;
-    border-right: 2px solid white;
 }
 
 .header h1 {

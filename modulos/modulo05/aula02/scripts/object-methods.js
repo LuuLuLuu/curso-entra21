@@ -1,7 +1,7 @@
 // 1) Sum the properties
 const sumSalaries = (salaries) => {
     let result;
-    for (let value of Object.values(x)) {
+    for (let value of Object.values()) {
         result += value;
     };
     return (salaries) ? sumCalculum(salaries) : 0;

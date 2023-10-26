@@ -1,0 +1,88 @@
+.page {
+    background: linear-gradient(bisque, rgb(145, 127, 106));
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10% 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.header ol {
+    padding: 10% 0 5%;
+}
+
+.header div ol li {
+    display: inline;
+    padding-inline: 17px;
+}
+
+.header div ol li:nth-last-child(2) {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.header h1 {
+    font-size: 80px;
+    background-color: rgb(101, 149, 150);
+}
+
+.container {
+    margin: 20% 5%;
+    background-color: cadetblue;
+    border-radius: 20px;
+
+    text-align: center;
+
+    padding: 10% 5%;
+}
+
+.contact-section {
+    display: flex;
+    background-color: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    border-top: black 5px;
+    border-style: dashed;
+
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer div {
+    padding: 40px 0;
+}
+
+.footer div a {
+    
+    padding-inline: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+@media all and (min-width: 1024px) {
+    .header li a, .footer {
+        font-size: 1.625rem;
+    }
+    
+    .footer {
+        margin: -70px 0 0 0;
+    }
+    .footer svg, .header svg {
+        padding: 0 10px 0 0;
+        height: 20px;
+    }
+}

@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VINCCI</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>VINCCI - VIAGENS</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <!-- <link rel="stylesheet" href="../../css/layoutModel.css"> -->
+
+    <!-- <link rel="stylesheet" href="../../css/tripsPortal.css"> -->
 </head>
 
 <body class="page">
     <header class="header">
-        <h1><a href="#">Vincci</a></h1>
+        <h1><a href="../../index.html">Vincci</a></h1>
         <div>
             <ol>
                 <li>
@@ -19,7 +21,7 @@
                         <path
                             d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
                     </svg>
-                    <a href="pages/trips/tripsPortal.html">Viagens</a>
+                    <a href="#">Viagens</a>
                 </li>
                 <li><svg xmlns="http://www.w3.org/2000/svg" height="1em"
                         viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -28,24 +30,72 @@
                     </svg>
                     <a href="#">Contatos</a>
                 </li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                        viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                        <path
-                            d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
-                    </svg>
-                    <a href="#">Perfil</a>
-                </li>
             </ol>
         </div>
     </header>
 
-    <section class="logo-introduction">
-        <p>Vincci</p>
-        <p>o melhor site para compartilhar suas viagens e experiencias!</p>
-    </section>
+    <hr>
 
     <main class="container">
-   </main>
+        <section class="avaible-trips">
+            <span>
+                <p>Escolha uma de nossas viagens disponiveis</p>
+            </span>
+            <div class="trips-cards">
+                <div class="card">
+                    <p>Chile</p>
+                    <a href="trips/chile.html"><p class="see-more">Veja mais</p></a>
+                </div>
+                <div class="card">
+                    <p>Japão</p>
+                    <a href="trips/japan.html"><p class="see-more">Veja mais</p></a>
+                </div>
+                <div class="card">
+                    <p>Londres</p>
+                    <a href="trips/london.html"><p class="see-more">Veja mais</p></a>
+                </div>
+                <div class="card">
+                    <p>Paris</p>
+                    <a href="trips/paris.html"><p class="see-more">Veja mais</p></a>
+                </div>
+                <div class="card">
+                    <p>Rio de Janeiro</p>
+                    <a href="trips/rioDeJaneiro.html"><p class="see-more">Veja mais</p></a>
+                </div>
+                <div class="card">
+                    <p>Veneza</p>
+                    <a href="trips/veneza.html"><p class="see-more">Veja mais</p></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr>
+
+    <section class="contact-section">
+        <h2>Precisa de ajuda?</h2>
+        <p>Mande sua mensagem</p>
+        <form>
+            <fieldset>
+                <legend>Fruit juice size</legend>
+                <p>
+                    <input type="radio" name="size" id="size_1" value="small" />
+                    <label for="size_1">Small</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size_2" value="medium" />
+                    <label for="size_2">Medium</label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="size_3" value="large" />
+                    <label for="size_3">Large</label>
+                </p>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
 
     <footer class="footer">
         <div>

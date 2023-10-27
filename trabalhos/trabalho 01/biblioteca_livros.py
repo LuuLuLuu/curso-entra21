@@ -1,6 +1,5 @@
 # Feito por Gabriel, Guilherme,Juliana, Luis, Raissa
 
-
 def adicionar_livro(id: int, titulo: str, autor: str, ano: int, genero: str) -> None:  # 1
     """    Essa função adiciona o livro e seus dados a biblioteca"""
     livro = {

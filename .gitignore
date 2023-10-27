@@ -1,9 +1,11 @@
-sketch.*
-scratch.*
-normalize.css
-trabalho 03 ignore
-.vscode
+/sketch
 
+.vscode
 .env
 
+sketch.*
+scratch.*
+
+normalize.css
+trabalho 03 ignore
 modelScrath.html
